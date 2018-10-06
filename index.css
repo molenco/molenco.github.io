@@ -1,0 +1,127 @@
+/*
+	Styles
+*/
+
+main{
+    text-align: center;
+}
+
+/*
+	Designed by Kamyar Lajani 
+	facebook.com/Click.serverr
+	instagram.com/kamo.dev
+
+*/
+* {
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+ ul {
+    background-color: gray;
+    
+    padding: 0px 10px;
+    display: table;
+    margin:  100px auto;
+
+
+
+
+
+}
+ul >  li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    z-index: 9999;
+    overflow: hidden;
+
+    
+
+
+
+}
+ul  li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: none;
+    padding: 15px 15px;
+    font-family: arial;
+    position: relative;
+    text-align: center;
+
+
+
+}
+
+
+
+ul > li > span {
+    text-decoration: none;
+    color: white;		
+    padding: 15px 17px;
+    position: absolute;
+    z-index: 999;
+    top: -43px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: arial;
+    width: 100%;
+    text-align: center;
+    
+
+    
+
+}
+ul >  li:hover > span {
+  /*transform: rotate(360deg);*/
+    top: 0px;
+    transition: 0.2s;
+
+}
+ul >  li:hover .child {
+    display: block;
+    transition: 1s;
+}
+
+ul  li:nth-child(1) {
+    margin-left: 0px;
+}
+ul  li:nth-child(1) span {
+ background: #de2c87;
+
+ }
+ ul  li:nth-child(2) span {
+ background: #36a2ef;
+ }
+ ul  li:nth-child(3) span {
+ background: #29d0b1;
+ }
+  ul  li:nth-child(4) span {
+ background: #e4a13c;
+ }
+ .child  {
+     background-color: #312f2f;
+    margin: 0px;
+    overflow: auto;
+    display: none;
+
+
+
+ }
+ .child li {
+     margin: 0px 1px;
+     
+     float: left;
+
+ }
+ .child li a {
+     margin: 0px;
+     padding: 10px 10px;
+     background-color: #312f2f;
+     
+ }
+ .child li a:hover {
+     background-color: black;
+ }
